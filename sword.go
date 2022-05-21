@@ -85,7 +85,7 @@ func (s *Sword) Run() {
 
 	go func() {
 		//Start server
-		err := http.ListenAndServe(":"+config.GlobalConfig.ServerPort, h)
+		err := http.ListenAndServe(config.GlobalConfig.ServerPort, h)
 		if err != nil {
 			log.Fatalf("Go-sword start err: %v", err)
 		}
