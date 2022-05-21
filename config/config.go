@@ -77,7 +77,7 @@ func readGoMod() (string, error) {
 func initDbConnect() {
 	dbc := GlobalConfig.DatabaseSet
 	// user:password@(localhost)/dbname?charset=utf8&parseTime=True&loc=Local
-	db, err := sql.Open("mysql", dbc.User+":"+dbc.Password+"@tcp("+dbc.Host+":"+strconv.Itoa(dbc.Port)+")/"+dbc.Database+"?&parseTime=True")
+	db, err := sql.Open("mssql", "sqlserver://"+dbc.User+":"+dbc.Password+"@"+dbc.Host+":"+strconv.Itoa(dbc.Port)+"/"+dbc.Database)
 	if err != nil {
 		log.Fatalf("%v", err)
 	}
