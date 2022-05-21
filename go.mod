@@ -1,4 +1,4 @@
-module github.com/BrettCao/go-sword/v2
+module github.com/BrettCao/go-sword
 
 go 1.13
 

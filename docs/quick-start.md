@@ -3,7 +3,7 @@
 
 ## 安装依赖包
 ```
-go get -u github.com/BrettCao/go-sword/v2
+go get -u github.com/BrettCao/go-sword
 ```
 
 ## 启动Go-sword 工具
@@ -23,7 +23,7 @@ import (
 
 	"github.com/app/admin22/sword"
 	"github.com/gin-gonic/gin"
-	gosword "github.com/BrettCao/go-sword/v2"
+	gosword "github.com/BrettCao/go-sword"
 )
 
 func main() {

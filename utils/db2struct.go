@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/BrettCao/go-sword/v2/config"
+	"github.com/BrettCao/go-sword/config"
 )
 
 type Db2struct struct {

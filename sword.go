@@ -14,9 +14,9 @@ import (
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/BrettCao/go-sword/v2/assets/resource"
-	"github.com/BrettCao/go-sword/v2/assets/view"
-	"github.com/BrettCao/go-sword/v2/config"
+	"github.com/BrettCao/go-sword/assets/resource"
+	"github.com/BrettCao/go-sword/assets/view"
+	"github.com/BrettCao/go-sword/config"
 )
 
 type gZipWriter struct {

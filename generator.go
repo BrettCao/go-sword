@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/BrettCao/go-sword/v2/config"
+	"github.com/BrettCao/go-sword/config"
 
-	"github.com/BrettCao/go-sword/v2/assets/resource"
-	"github.com/BrettCao/go-sword/v2/assets/stub"
-	"github.com/BrettCao/go-sword/v2/utils"
+	"github.com/BrettCao/go-sword/assets/resource"
+	"github.com/BrettCao/go-sword/assets/stub"
+	"github.com/BrettCao/go-sword/utils"
 	_ "github.com/go-sql-driver/mysql"
 )
 
