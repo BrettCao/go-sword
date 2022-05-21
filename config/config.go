@@ -3,13 +3,13 @@ package config
 import (
 	"database/sql"
 	"errors"
+	_ "github.com/denisenkom/go-mssqldb"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"log"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"gopkg.in/yaml.v2"
 )
 
 // App global config

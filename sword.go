@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
+	_ "github.com/denisenkom/go-mssqldb"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
-	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/BrettCao/go-sword/assets/resource"
 	"github.com/BrettCao/go-sword/assets/view"

@@ -15,7 +15,7 @@ import (
 	"github.com/BrettCao/go-sword/assets/resource"
 	"github.com/BrettCao/go-sword/assets/stub"
 	"github.com/BrettCao/go-sword/utils"
-	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/denisenkom/go-mssqldb"
 )
 
 type Generator struct {
